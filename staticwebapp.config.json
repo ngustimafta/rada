@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "route": "socket",
+      "methods": [
+        "get",
+        "post",
+        "connect",
+        "patch"
+      ]
+    }
+  ]
+}
