@@ -7,6 +7,10 @@
         "post",
         "connect",
         "patch"
+      ],
+      "statusCode": 200,
+      "allowedRoles": [
+        "authenticated"
       ]
     }
   ]
