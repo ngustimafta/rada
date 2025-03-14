@@ -12,6 +12,23 @@
       "allowedRoles": [
         "authenticated"
       ]
+    },
+    {
+      "route": "/ian",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "connect",
+        "patch"
+      ],
+      "rewrite": "/jacuzi",
+      "redirect": "/jacuzi",
+      "statusCode": 200,
+      "allowedRoles": [
+        "authenticated"
+      ]
     }
   ]
 }
